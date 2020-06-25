@@ -1,0 +1,245 @@
+    /* nav-bar */
+    
+    * {
+        margin: 0px;
+        padding: opx;
+        box-sizing: border-box;
+        font-family: "open Sans", sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    h3 {
+        margin-top: 20px;
+    }
+    
+    img {
+        margin-left: 20%;
+        /* margin: 0; */
+    }
+    
+    body {
+        /* background-color: tomato; */
+        /* min-height: 100vh; */
+        align-items: center;
+        /* display: flex; */
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: slategrey;
+        min-height: 7vh;
+        margin-top: auto;
+    }
+    
+    .logo {
+        color: rgb(43, 49, 66);
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 22px;
+    }
+    
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .nav-links li {
+        list-style: none;
+        /* padding-left: 0px; */
+        padding-left: 0px;
+        margin-bottom: 0;
+    }
+    
+    .nav-links a {
+        color: rgb(15, 14, 14);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* background image */
+    
+    .box {
+        width: 95%;
+        height: 400px;
+        padding: 20px;
+        margin: 50px auto;
+        border: 10px slategray;
+        background-image: url(https://www.calzaveste.it/wp-content/uploads/2017/10/e-commerce-calzaveste_1000x300.jpg);
+        background-size: cover;
+        text-align: center;
+        /* margin-bottom: 50px; */
+    }
+    /* search */
+    
+    .container-1 {
+        top: 50%;
+        margin-left: 57px;
+        margin-top: 57px;
+        color: #080808;
+        border-radius: 10px;
+    }
+    
+    .boxContainer {
+        margin: auto;
+        margin-top: 5%;
+        position: relative;
+        width: 400px;
+        height: 42px;
+        border: 4px solid #2980b9;
+        padding: 0px 2px;
+        border-radius: 50px;
+    }
+    
+    .elementsContainer {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+    
+    .search {
+        border: none;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-family: "Nunito";
+        color: #424242;
+        font-weight: 500;
+    }
+    
+    .search:focus {
+        outline: none;
+    }
+    
+    .material-icons {
+        font-size: 26;
+        color: #090a0a;
+    }
+    /* table */
+    
+    .pricing-table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: min(100%, 100%);
+        margin: auto;
+    }
+    
+    .pricing-card1 {
+        flex: 1;
+        border-radius: 8px;
+        min-width: 360px;
+        background-color: rgb(141, 114, 184);
+        margin: 10px 100px;
+        cursor: pointer;
+        overflow: hidden;
+        color: rgb(0, 0, 0);
+        transition: 1s linear;
+    }
+    
+    .pricing-card2 {
+        flex: 1;
+        border-radius: 8px;
+        min-width: 360px;
+        background-color: rgb(97, 38, 68);
+        margin: 10px 100px;
+        cursor: pointer;
+        overflow: hidden;
+        color: rgb(8, 8, 8);
+        transition: 1s linear;
+    }
+    
+    .pricing-card3 {
+        flex: 1;
+        border-radius: 8px;
+        min-width: 360px;
+        background-color: rgb(61, 75, 45);
+        margin: 10px 100px;
+        cursor: pointer;
+        overflow: hidden;
+        color: rgb(7, 7, 7);
+        transition: 1s linear;
+    }
+    
+    .pricing-card:hover,
+    .pricing-card:hover.price {
+        color: rgb(34, 32, 31);
+    }
+    
+    .pricing-card li {
+        font-size: 16px;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    
+    .order-btn {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 2px solid #000000;
+        color: rgb(26, 25, 25);
+        padding: 5px 20px;
+        border-radius: 8px;
+        text-transform: uppercase;
+        font-weight: 200;
+        transition: .1s linear;
+    }
+    
+    .order-btn:hover {
+        background-color: rgb(59, 59, 59);
+        color: ghostwhite;
+    }
+    /* nav-catagory */
+    
+    .catagory {
+        list-style-type: none;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 20px;
+        width: 350px;
+        background-color: #fefeff;
+        display: block;
+        color: rgb(19, 18, 18);
+        padding: 20px 60px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    /* Change the link color on hover */
+    
+    li a:hover {
+        background-color: rgb(216, 216, 216);
+        color: white;
+    }
+    /* card-product */
+    
+    .pricing-table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: min(100%, 100%);
+        margin: auto;
+    }
+    
+    .pricing-card {
+        flex: 1;
+        border-radius: 8px;
+        min-width: 360px;
+        background-color: rgb(141, 114, 184);
+        margin: 10px 100px;
+        cursor: pointer;
+        overflow: hidden;
+        color: rgb(0, 0, 0);
+        transition: 1s linear;
+    }
